@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas: 'nav nav nav nav'
+                         'aside aside aside aside'
+                         'header header header header'
+                         'footer footer footer footer';
+    grid-template-rows: 20vh 50vh 40vh 20vh;
+  }
+  
+  nav{
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  aside{
+    grid-area: aside;
+  }
+  
+  header{
+    grid-area: header;
+  }
+  
+  footer{
+    grid-area: footer;
+  }
