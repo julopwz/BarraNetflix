@@ -17,9 +17,6 @@ const movies = [
 // const title = document.getElementById("Que Horas ela Volta");
 // const title = document.getElementById("Os Vingadores");
 
-const list = document.getElementById("movies");
-const title = document.getElementById("title");
-
 title.addEventListener("keyup", function(event) {
     const matchs = movies.filter(value => {
     return value.title.indexOf(this.value) !== -1;
@@ -30,3 +27,40 @@ for (let movie of matchs) {
   list.innerHTML += "<li><a href='"+movie.url+"'>"+movie.title+"</a></li>";
 }
 });
+
+
+// let filmes = [
+//     {titulo: "as branquelas", idade: 14},
+//     {titulo: "os vingadores", idade:16},
+//     {titulo: "bastardos inglorios", idade:18},
+//     {titulo: "killbill", idade: 25}
+//  ];
+ 
+//  let userIdade = prompt("digite sua idade");
+//  for ( let indice in filmes){
+//     if (userIdade >= filmes[indice].idade){
+//         console.log (filmes[indice]. titulo);
+//     }
+//  }
+ 
+//  in - indice
+//  of - valores
+//  let filmes = [
+//     {titulo: "as branquelas", idade: 14},
+//     {titulo: "os vingadores", idade:16},
+//     {titulo: "bastardos inglorios", idade:18},
+//     {titulo: "killbill", idade: 25}
+//  ];
+ 
+//  let userIdade = prompt("digite sua idade");
+//  for ( let i in filmes){
+//     if (userIdade >= filmes[i].idade){
+//         console.log (filmes[i]. titulo);
+//     }
+//  }
+//  for(let j of filmes){
+//     if (userIdade >= j.idade){
+//         console.log (j.titulo);
+//     }
+//  }
+ 
