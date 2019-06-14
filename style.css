@@ -23,7 +23,7 @@ flex-direction: column;
 aside div input{
   border-radius: 4px;
   border: 0;
-  color: #fff;
+  color: rgb(235, 16, 16);
   height: 20px;
   width: 50vw;
   line-height: 50px;
@@ -35,17 +35,20 @@ aside div input{
   cursor: pointer;
   border-radius: 10px 20px 30px 40px;
   border: 0;
-  width: 162px;
-  height: 23px;
+  width: 170px;
+  height: 25px;
 }
 
+#buttom:hover{
+  background-color: rgba(255, 0, 0, 0.945);
+}
 button img{
   width: 16px;
 }
 
 input{
   border-radius: 10px 25px 10px 5px;
-  background-color: red;
+  background-color:white;
   border: 0;
   width: 161px;
   height: 20px;
