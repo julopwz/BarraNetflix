@@ -63,3 +63,27 @@ div{
 section{
   height: 50vh;
 }
+
+nav{
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+}
+
+h1{
+  font-family:'Anton', sans-serif;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 30pt;
+  color:#E50914;
+
+}
+
+
+footer{
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
