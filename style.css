@@ -40,7 +40,7 @@ aside div input{
 }
 
 img{
-  width: 20px;
+  width: 80px;
 }
 
 .container{
@@ -104,6 +104,7 @@ div{
 section{
   height: 50vh;
 }
+
 
 nav{
   display: flex;
