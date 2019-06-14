@@ -37,10 +37,21 @@ aside div input{
   border-radius: 10px 20px 30px 40px;
   border: 0;
   width: 162px;
-  height: 25px;
+  height: 23px;
 }
 
-img{
+button img{
+  width: 16px;
+}
+
+input{
+  border-radius: 10px 25px 10px 5px;
+  background-color: red;
+  border: 0;
+  width: 161px;
+  height: 20px;
+}
+  img{
   width: 80px;
 }
 
