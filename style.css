@@ -81,11 +81,6 @@ h1{
 }
 
 
-aside div img{
-  width: 100px;
-  height: 100px;
-}
-
 footer{
   height: 50px;
   display: flex;
