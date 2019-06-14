@@ -17,7 +17,16 @@ flex-direction: column;
   height: 25px;
 }
 
-img{
+section{
+
+}
+
+section img{
+  width: 200px;
+  height: 120px;
+}
+
+button img{
   width: 20px;
 }
 
