@@ -135,6 +135,9 @@ h1{
 
 }
 
+nav h1 span{
+  color: white;
+}
 
 footer{
   height: 50px;
