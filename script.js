@@ -9,14 +9,6 @@ const movies = [
     
 ];
 
-// const title = document.getElementById("Titanic");
-// const title = document.getElementById("A Forma da Água");
-// const title = document.getElementById("Corra!");
-// const title = document.getElementById("Histórias Cruzadas");
-// const title = document.getElementById("Um Lugar Silencioso");
-// const title = document.getElementById("Que Horas ela Volta");
-// const title = document.getElementById("Os Vingadores");
-
 title.addEventListener("keyup", function(event) {
     const matchs = movies.filter(value => {
     return value.title.indexOf(this.value) !== -1;

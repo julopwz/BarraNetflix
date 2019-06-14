@@ -148,6 +148,11 @@ nav h1 span{
   color: white;
 }
 
+nav  p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
 footer{
   height: 50px;
   display: flex;
